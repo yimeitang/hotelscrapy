@@ -84,4 +84,5 @@ class HotelScrapy(object):
         self.generateDict()
         self.saveImage()
         end = timeit.timeit()
-        print("We have successfully saved {} images and labeled it with ratings in {:.2f} minuets".format(len(self.checkedList),(end - start)/60))
+        print("We have successfully saved {} images and labeled it with ratings in {:.2f} minuets".
+                   format(len(self.checkedList),(end - start)/60))
